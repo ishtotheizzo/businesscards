@@ -1,0 +1,110 @@
+:root {
+    --gold: rgba(255, 198, 39, 1);
+    --black: rgba(0, 0, 0, 1);
+    --grey: rgba(0, 0, 0, 0.16);
+    --white: rgba(255, 255, 255, 1);
+}
+
+body{
+    background-color: var(--white);
+}
+
+
+.businesscard{
+    background-color: var(--white);
+    width: 430px;
+    height: 932px; 
+    margin: auto; 
+}
+
+.header{
+    background: url('./header.png') no-repeat;
+    width: 430px; 
+    height: 394px; 
+    position: absolute; 
+    top: 0px; 
+
+}
+
+#logo{
+    background: #000000 0% 0% no-repeat padding-box;
+    width: 430px; 
+    height: 110px; 
+    z-index: 1; 
+    position: absolute; 
+    top: 0px;
+    margin: auto;
+    align-content: center;
+
+
+}
+
+
+
+.inputImage{
+    
+    position: absolute; 
+    top: 182px;
+    width: 298px;
+    height: 322px;
+    background: var(--grey);
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 29px;
+    opacity: 1;
+    z-index: 1;
+    display: block;
+    margin-left: 66px; 
+    margin-right: 66px; 
+
+}
+
+
+.about{
+    background: var(--white);
+    position: absolute; 
+    top: 532px; 
+    display: block;
+    align-content: center;
+    text-align: center;
+    width: inherit; 
+}
+
+#name{
+    background: var(--gold);
+    width: 300px;
+    font-family: "Roboto"; 
+    font-size: 37px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    color: #000000;
+    padding: 2px 5px 1px 5px;
+    margin: 0 auto; 
+    overflow-wrap: break-word;
+}
+
+#title{
+
+
+    background-color: var(--black);
+    width: 300px;
+    font-family: "Roboto"; 
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: var(--white);
+    padding: 2px 5px 1px 5px;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin-bottom: 28px;
+
+    
+}
+
+#qrcode{
+    width: 245px;
+    height: 245px; 
+    background: var(--grey);
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    z-index: 1;
+    margin-bottom: 36px;
+}
