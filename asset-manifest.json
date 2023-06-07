@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.45d765e6.css",
-    "main.js": "/react-gh-pages/static/js/main.13bf1b62.js",
-    "static/js/787.3e10da7a.chunk.js": "/react-gh-pages/static/js/787.3e10da7a.chunk.js",
-    "static/media/header.png": "/react-gh-pages/static/media/header.fb5c04dfa9afed2cb654.png",
-    "static/media/logo.png": "/react-gh-pages/static/media/logo.6436c41e8d8f9cb56282.png",
-    "static/media/qrcode.png": "/react-gh-pages/static/media/qrcode.36b8bb726a69e7ed81b8.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.45d765e6.css.map": "/react-gh-pages/static/css/main.45d765e6.css.map",
-    "main.13bf1b62.js.map": "/react-gh-pages/static/js/main.13bf1b62.js.map",
-    "787.3e10da7a.chunk.js.map": "/react-gh-pages/static/js/787.3e10da7a.chunk.js.map"
+    "main.css": "/businesscards/static/css/main.195225f0.css",
+    "main.js": "/businesscards/static/js/main.687ca33b.js",
+    "static/js/787.3e10da7a.chunk.js": "/businesscards/static/js/787.3e10da7a.chunk.js",
+    "static/media/header.png": "/businesscards/static/media/header.fb5c04dfa9afed2cb654.png",
+    "static/media/logo.png": "/businesscards/static/media/logo.6436c41e8d8f9cb56282.png",
+    "static/media/qrcode.png": "/businesscards/static/media/qrcode.36b8bb726a69e7ed81b8.png",
+    "index.html": "/businesscards/index.html",
+    "main.195225f0.css.map": "/businesscards/static/css/main.195225f0.css.map",
+    "main.687ca33b.js.map": "/businesscards/static/js/main.687ca33b.js.map",
+    "787.3e10da7a.chunk.js.map": "/businesscards/static/js/787.3e10da7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45d765e6.css",
-    "static/js/main.13bf1b62.js"
+    "static/css/main.195225f0.css",
+    "static/js/main.687ca33b.js"
   ]
 }
