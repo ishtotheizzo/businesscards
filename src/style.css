@@ -60,6 +60,9 @@ body{
 
 }
 
+.text-center { 
+    text-align: center; 
+}
 
 .about{
     background: var(--white);
@@ -72,11 +75,10 @@ body{
 }
 
 
-#title{
+.title{
 
 
     background-color: var(--black);
-    width: 350px;
     font-family: "Arial"; 
     font-size: 29px;
     letter-spacing: 0px;
@@ -85,17 +87,39 @@ body{
     text-align: center;
     overflow-wrap: break-word;
     margin-bottom: 28px;
+    
 
     
 }
 
+.css-66dh3a-MuiInputBase-input-MuiInput-input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 0;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: auto;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    resize: none;
+    padding-top: 0;
+    text-align: center;
+}
 
 
 #qrcode{
     width: 245px;
     height: 245px; 
     background: var(--grey);
-    box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
     z-index: 1;
     margin-bottom: 36px;
@@ -105,11 +129,34 @@ body{
  
 @media only screen and (max-width:  450px) {
 
-    .businesscard{
-        background-color: var(--white);
-        width: 100vw;
-        height: 932px; 
-        margin: auto; 
-    }
+    .businesscard {
+            background-color: var(--white);
+            width: 100vw;
+            height: 932px;
+            margin: auto;
+            box-shadow: 0px 3px 6px #00000029;
+    
+        }
+    
+        .header {
+            background: url('./header.png') no-repeat;
+            width: 100vw;
+            height: 394px;
+            position: absolute;
+            top: 0px;
+    
+        }
+    
+        #logo {
+            background: #000000 0% 0% no-repeat padding-box;
+            width: 100vw;
+            height: 110px;
+            z-index: 1;
+            position: absolute;
+            top: 0px;
+            margin: auto;
+            align-content: center;
+    
+        }
     
 }

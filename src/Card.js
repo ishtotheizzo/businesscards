@@ -62,8 +62,8 @@ export default function Card(){
 
           
             <div class="about">
-               <Input type='text'  multiline maxRows={2} placeholder='Your Name Here' disableUnderline style={{ background: 'rgba(255, 198, 39, 1)', width: '320px', fontFamily: 'Arial', color: 'rgba(0,0,0,1)', fontSize: '37px', fontWeight: 'bolder', lineHeight: '38px', wordWrap: 'break-word', padding: '2px 5px 1px 5px', textAlign: 'center', marginBottom: '1px' }}/><br/>
-               <Input type='text'  multiline maxRows={3} placeholder='Your Title Here' disableUnderline style={{ background: 'rgba(1, 1, 1, 1)', width: '350px', fontFamily: 'Arial', color: 'rgba(255,255,255,1)', fontSize: '29px', fontWeight: 'bold', lineHeight: '29px', wordWrap: 'break-word', padding: '2px 5px 1px 5px', textAlign: 'center', marginBottom: '28px' }}/> <br/>
+              <center><Input type='text'  class="text-center" multiline maxRows={2} placeholder='Your Name Here' disableUnderline style={{ textAlign: 'center', alignContent: 'center' ,background: 'rgba(255, 198, 39, 1)', fontFamily: 'Arial', color: 'rgba(0,0,0,1)', fontSize: '37px', fontWeight: 'bolder', lineHeight: '38px', wordWrap: 'break-word', padding: '2px 5px 1px 5px', textAlign: 'center', marginBottom: '1px' }} sx={{textAlign: 'center'}}/><br/>
+               <Input type='text'  multiline maxRows={3} placeholder='Your Title Here' disableUnderline style={{ background: 'rgba(1, 1, 1, 1)', fontFamily: 'Arial', color: 'rgba(255,255,255,1)', fontSize: '29px', fontWeight: 'bold', lineHeight: '29px', wordWrap: 'break-word', padding: '2px 5px 1px 5px', textAlign: 'center', marginBottom: '28px' }}/> <br/></center>
 
                <div id="qrcode" style={{width: '245px', height: '245px', backgroundImage: `url(${qrCode})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover'}}> 
 
