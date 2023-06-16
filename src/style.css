@@ -10,12 +10,12 @@ body{
 }
 
 
+
 .businesscard{
     background-color: var(--white);
     width: 430px;
     height: 932px; 
-    margin: auto; 
-    box-shadow: 0px 3px 6px #00000029;
+    margin: auto;
 
 }
 
@@ -60,9 +60,7 @@ body{
 
 }
 
-.text-center { 
-    text-align: center; 
-}
+
 
 .about{
     background: var(--white);
@@ -92,28 +90,6 @@ body{
     
 }
 
-.css-66dh3a-MuiInputBase-input-MuiInput-input {
-    font: inherit;
-    letter-spacing: inherit;
-    color: currentColor;
-    padding: 0;
-    border: 0;
-    box-sizing: content-box;
-    background: none;
-    height: auto;
-    margin: 0;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    min-width: 0;
-    width: 100%;
-    -webkit-animation-name: mui-auto-fill-cancel;
-    animation-name: mui-auto-fill-cancel;
-    -webkit-animation-duration: 10ms;
-    animation-duration: 10ms;
-    resize: none;
-    padding-top: 0;
-    text-align: center;
-}
 
 
 #qrcode{
@@ -126,6 +102,22 @@ body{
     margin: 0 auto; 
 }
 
+Input{
+        min-width: 50px !important;
+            max-width: 99.99% !important;
+            transition: width 0.25s;
+            text-align: center;
+        
+}
+
+textarea {
+    text-align: center;
+        min-width: 50px !important;
+            max-width: 99.99% !important;
+            transition: width 0.25s;
+            text-align: center;
+        
+}
  
 @media only screen and (max-width:  450px) {
 
@@ -134,7 +126,7 @@ body{
             width: 100vw;
             height: 932px;
             margin: auto;
-            box-shadow: 0px 3px 6px #00000029;
+
     
         }
     
