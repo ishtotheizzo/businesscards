@@ -64,8 +64,7 @@ export default function Card(){
             <div class="header">
                 <div id="logo"><center><img src={Logo}/></center></div>
             </div>
-            <div style={{position: 'fixed', width: '50%', marginLeft: '66px', marginRight: '66px'}}>
-          <div className="inputImage"  style={{width: '298px', height: '322px', backgroundImage: `url(${imagePath})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover'}}>                    
+          <div style={{marginRight: 'auto', marginLeft: 'auto', width: '70%'}}><div className="inputImage"  style={{backgroundImage: `url(${imagePath})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover'}}>                    
             <Button variant="text" onClick={handleClickOpen} style={imagePath === '' ? {padding: '149px 0', display: 'block', marginRight: "auto", marginLeft: "auto"} :  {display:'none'}}> Upload Headshot</Button>
       <UploadHeadShot
         imagePath={imagePath}
@@ -78,7 +77,7 @@ export default function Card(){
                     <br/>
 
           
-            <div class="about">
+            <div className="about">
               <center>
                 <About style={{marginBottom: "28px"}}/>
                 </center>
@@ -86,12 +85,13 @@ export default function Card(){
                <div id="qrcode" style={{width: '245px', height: '245px', backgroundImage: `url(${qrCode})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover'}}> 
 
                <Button variant="text" onClick={handleQROpen} style={qrCode === '' ? {padding: '122.5px 0', display: 'block', marginRight: "auto", marginLeft: "auto"} :  {display:'none'}}> Upload QR code</Button>
-      <UploadQRCode
-        qrCode={qrCode}
-        open={openQR}
-        onClose={handleCloseQR}
-        style={{padding: 20, marginBottom: '28px'}}
-      />
+        <UploadQRCode
+          qrCode={qrCode}
+          open={openQR}
+          onClose={handleCloseQR}
+          style={{padding: 20, marginBottom: '28px'}}
+        />
+        <center><Button variant='contained' onClick={handleDownload}>Download Business Card</Button></center>
 
 
             </div>
@@ -99,7 +99,6 @@ export default function Card(){
 
         </div>
 
-        <center><Button variant='contained' onClick={handleDownload}>Download Business Card</Button></center></>
               
-    )
+    </>)
 }
