@@ -9,9 +9,6 @@ body{
     background-color: var(--white);
 }
 
-#title{
-
-}
 
 #name{
     width: 400px;
@@ -51,19 +48,8 @@ textarea{
 }
 
 #logo{
-    background: #000000 0% 0% no-repeat padding-box;
-    width: 430px; 
-    height: 110px; 
-    z-index: 1; 
-    position: absolute; 
-    top: 0px;
-    margin: auto;
-    align-content: center;
-
-
+    background: black;
 }
-
-
 
 .inputImage{
     
@@ -77,8 +63,6 @@ textarea{
     opacity: 1;
     z-index: 1;
     display: block;
-    margin-left: 66px; 
-    margin-right: 66px; 
 
 }
 

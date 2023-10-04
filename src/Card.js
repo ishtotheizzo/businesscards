@@ -58,11 +58,14 @@ export default function Card(){
 
     return(<>
 
-        <div class="businesscard" id="toDownload">
+        <div className="businesscard" id="toDownload">
+
+          {/*this is the header section the image showing the DT logo*/}
             <div class="header">
                 <div id="logo"><center><img src={Logo}/></center></div>
             </div>
-            <div class="inputImage"  style={{width: '298px', height: '322px', backgroundImage: `url(${imagePath})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover'}}>                    
+            <div style={{position: 'fixed', width: '50%', marginLeft: '66px', marginRight: '66px'}}>
+          <div className="inputImage"  style={{width: '298px', height: '322px', backgroundImage: `url(${imagePath})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover'}}>                    
             <Button variant="text" onClick={handleClickOpen} style={imagePath === '' ? {padding: '149px 0', display: 'block', marginRight: "auto", marginLeft: "auto"} :  {display:'none'}}> Upload Headshot</Button>
       <UploadHeadShot
         imagePath={imagePath}
@@ -71,7 +74,7 @@ export default function Card(){
         style={{padding: 20}}
       />
 
-          </div>
+          </div></div>
                     <br/>
 
           

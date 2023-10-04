@@ -7,11 +7,13 @@ import { Input } from '@mui/material';
 export default function About() {
   return (
     <div>
+
+      <input style={{display: 'inline-block', background: 'rgba(255, 198, 39, 1)', color: 'rgba(0, 0, 0, 1)'}}></input>
         <Input type='text'  
         multiline maxRows={4} 
         placeholder='Name' 
         disableUnderline 
-        style={{width: '400px',background: 'rgba(255, 198, 39, 1)', fontFamily: 'Arial', color: 'rgba(0,0,0,1)', fontSize: '37px', fontWeight: 'bolder', padding: '2px' }}/><br/>
+        style={{display: 'inline-block', width: '1x',background: 'rgba(255, 198, 39, 1)', fontFamily: 'Arial', color: 'rgba(0,0,0,1)', fontSize: '37px', fontWeight: 'bolder', padding: '2px', minWidth: '1px'}}/><br/>
       
       
       
@@ -20,7 +22,7 @@ export default function About() {
        multiline maxRows={3}  
        placeholder='Title'
         disableUnderline 
-        style={{ background: 'rgba(1, 1, 1, 1)', fontFamily: 'Arial', color: 'rgba(255,255,255,1)', fontSize: '29px', fontWeight: 'bold', padding: '2px'}}/> <br/>
+        style={{ background: 'rgba(1, 1, 1, 1)', fontFamily: 'Arial', color: 'rgba(255,255,255,1)', fontSize: '29px', fontWeight: 'bold', padding: '2px', minWidth: '1px'}}/> <br/>
    {/* <TextareaAutosize minRows={1} id="name"/> */}
     </div>
   );
