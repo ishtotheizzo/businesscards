@@ -9,6 +9,28 @@ body{
     background-color: var(--white);
 }
 
+#title{
+
+}
+
+#name{
+    width: 400px;
+    background: rgba(255, 198, 39, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 2px; 
+    color: rgba(0,0,0,1);
+
+
+}
+
+textarea{
+    width: 100%; 
+    height: max-content;
+    text-align: center;
+    margin: 0 auto; 
+}
 
 
 .businesscard{
@@ -102,22 +124,6 @@ body{
     margin: 0 auto; 
 }
 
-Input{
-        min-width: 50px !important;
-            max-width: 99.99% !important;
-            transition: width 0.25s;
-            text-align: center;
-        
-}
-
-textarea {
-    text-align: center;
-        min-width: 50px !important;
-            max-width: 99.99% !important;
-            transition: width 0.25s;
-            text-align: center;
-        
-}
  
 @media only screen and (max-width:  450px) {
 
