@@ -64,7 +64,7 @@ export default function Card(){
             <div class="header">
                 <div id="logo"><center><img src={Logo}/></center></div>
             </div>
-          <div style={{marginRight: 'auto', marginLeft: 'auto', width: '70%'}}><div className="inputImage"  style={{backgroundImage: `url(${imagePath})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover'}}>                    
+          <div style={{display: 'block', marginRight: 'auto', marginLeft: 'auto', width: '68%'}}><div className="inputImage"  style={{backgroundImage: `url(${imagePath})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover'}}>                    
             <Button variant="text" onClick={handleClickOpen} style={imagePath === '' ? {padding: '149px 0', display: 'block', marginRight: "auto", marginLeft: "auto"} :  {display:'none'}}> Upload Headshot</Button>
       <UploadHeadShot
         imagePath={imagePath}
