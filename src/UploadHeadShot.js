@@ -29,7 +29,7 @@ export default function UploadHeadShot(props) {
         Preview </p>
         <div  style={{width: '298px', height: '322px', backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover'}}> </div>   <p></p>                
 
-        <center><Button variant="contained" onClick={handleClose}>Upload QR Code</Button></center></div>
+        <center><Button variant="contained" onClick={handleClose}>Upload Headshot</Button></center></div>
       </Dialog>
     );
   }

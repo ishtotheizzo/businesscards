@@ -9,6 +9,11 @@ body{
     background-color: var(--white);
 }
 
+#toDownload{
+    width: 430px;
+    height: 938px;
+    margin: auto;
+}
 
 #name{
     width: 400px;
@@ -34,6 +39,7 @@ textarea{
     background-color: var(--white);
     width: 430px;
     margin: auto;
+    
 
 
 }
@@ -47,7 +53,7 @@ textarea{
 
 }
 
-#logo{
+.logo{
     background: black;
 }
 
@@ -108,11 +114,17 @@ textarea{
 }
 
  
-@media only screen and (max-width:  450px) {
+@media only screen and (max-width:  460px) {
+
+    #toDownload{
+        width: 100vw; 
+        height: 100vh; 
+    }
 
     .businesscard {
             background-color: var(--white);
             width: 100vw;
+            height: 100vh;
             margin: auto;
 
     
@@ -127,7 +139,7 @@ textarea{
     
         }
     
-        #logo {
+        .logo {
             background: #000000 0% 0% no-repeat padding-box;
             width: 100vw;
             height: 110px;
@@ -137,6 +149,15 @@ textarea{
             margin: auto;
             align-content: center;
     
+        }
+        
+        .inputImage{
+            width: 70vw;
+        }
+
+        #qrcode { 
+            width: 50vw; 
+            
         }
     
 }
