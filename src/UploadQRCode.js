@@ -22,6 +22,7 @@ export default function UploadQRCode(props) {
     return (
       <Dialog onClose={handleClose} open={open}>
         <DialogTitle>Upload QR Code</DialogTitle>
+        <p>Don't have a QR code? <a href="https://forms.gle/EVik1KkwozzSd6mm8" target="_blank">Don't have one? Request one</a>.</p>
         <div style={{padding: "10px", margin: "0 auto", borderRadius: "10px", fontFamily: "Arial", fontSize: "16px"}}>
         <Input color='primary' name="headshot" type="file" onChange={handleImage}  disableUnderline placeholder='Upload Your QR  Code'/>
         <br/>

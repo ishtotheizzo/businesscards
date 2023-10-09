@@ -112,6 +112,8 @@ const handleReset = () => {
           onClose={handleCloseQR}
           style={{padding: 20, marginBottom: '28px'}}
         />
+        <center><Button variant='contained' onClick={handleDownload} style={{marginRight: '12px'}}>Save</Button> 
+        <Button variant='outlined' onClick={handleReset}>Reset</Button></center>
 
 
             </div>
@@ -120,9 +122,7 @@ const handleReset = () => {
         </div>
         
         </div>
-
-        <center><Button variant='contained' onClick={handleDownload} style={{marginRight: '12px'}}>Download Business Card</Button> 
-        <Button variant='outlined' onClick={handleReset}>Reset or Make Another</Button></center>
+ 
 
 
 
