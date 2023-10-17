@@ -71,7 +71,6 @@ const handleReset = () => {
 
       <>
 
-      <div id='toDownload'>
         <div className="businesscard">
 
           
@@ -112,16 +111,16 @@ const handleReset = () => {
           onClose={handleCloseQR}
           style={{padding: 20, marginBottom: '28px'}}
         />
-        <center><Button variant='contained' onClick={handleDownload} style={{marginRight: '12px'}}>Save</Button> 
-        <Button variant='outlined' onClick={handleReset}>Reset</Button></center>
+        </div> 
+        
 
 
             </div>
         </div> 
 
-        </div>
         
-        </div>
+        
+       
  
 
 
